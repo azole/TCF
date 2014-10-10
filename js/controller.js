@@ -4,7 +4,8 @@ var mainApp = angular.module('mainApp', ['ngAnimate']);
 
 mainApp.controller('mainCtrl', function($scope) {
   $scope.filterBtns = [
-    {name: '全部'}, 
+    {name: '全部'},
+    {name: '油'}, 
     {name: '果汁'}, 
     {name: '牛奶'}, 
     {name: '醬油'}, 
@@ -49,6 +50,37 @@ mainApp.controller('mainCtrl', function($scope) {
     {name: '健康廚房沾拌淋醬', pict: 'wc026.png', brand: '味全', type: '醬品', tag: '調味料'},
     {name: '味全雞蛋布丁', pict: 'wc027.png', brand: '味全', type: '點心', tag: ''},
     {name: '原味優格', pict: 'wc028.png', brand: '味全', type: '點心', tag: ''},
+
+    {name: '味小寶純豬肉酥', pict: 'wc101.png', brand: '味全', type: '肉酥', tag: ''},
+    {name: '味小寶海苔豬肉酥', pict: 'wc102.png', brand: '味全', type: '肉酥', tag: ''},
+    {name: '味小寶極品上豚豬肉酥', pict: 'wc103.png', brand: '味全', type: '肉酥', tag: ''},
+    {name: '味全海苔豬肉酥', pict: 'wc105.png', brand: '味全', type: '肉酥', tag: ''},
+    {name: '味小寶臻選純肉鬆禮盒', pict: 'wc106.png', brand: '味全', type: '肉酥', tag: ''},
+    {name: '味小寶極品上豚純肉酥-海苔', pict: 'wc107.png', brand: '味全', type: '肉酥', tag: ''},
+    {name: '味全辣味肉醬', pict: 'wc108.png', brand: '味全', type: '肉醬', tag: ''},
+    {name: '味全珍味肉醬', pict: 'wc109.png', brand: '味全', type: '肉醬', tag: ''},
+    {name: '味全瓜仔肉', pict: 'wc110.png', brand: '味全', type: '肉醬', tag: ''},
+    {name: '味全健康廚房葡萄籽油', pict: 'wc111.png', brand: '味全', type: '食用油', tag: ''},
+    {name: '味全紫果多酚調合油', pict: 'wc112.png', brand: '味全', type: '食用油', tag: ''},
+    {name: '味全健康三利多嚴選調合油', pict: 'wc113.png', brand: '味全', type: '食用油', tag: ''},
+    {name: '味全歐風黃金嚴選/精華調合油', pict: 'wc114.png', brand: '味全', type: '食用油', tag: ''},
+    {name: '味全珍饌寶嚴選/精華調合油', pict: 'wc115.png', brand: '味全', type: '食用油', tag: ''},
+    {name: '味全高溫安定嚴選調合油', pict: 'wc116.png', brand: '味全', type: '食用油', tag: ''},
+    {name: '味全皇家莊園嚴選調合油', pict: 'wc117.png', brand: '味全', type: '食用油', tag: ''},
+    {name: '味全義式精華調合油', pict: 'wc118.png', brand: '味全', type: '食用油', tag: ''},
+    {name: '味全健康廚房橄欖油', pict: 'wc119.png', brand: '味全', type: '食用油', tag: ''},
+    {name: '味全歐式優選調合油', pict: 'wc120.png', brand: '味全', type: '食用油', tag: ''},
+    {name: '味全不飽和精華調合油', pict: 'wc121.png', brand: '味全', type: '食用油', tag: ''},
+    {name: '味全綠果多酚調合油', pict: 'wc122.png', brand: '味全', type: '食用油', tag: ''},
+    {name: '味全御膳珍寶調合油', pict: 'wc123.png', brand: '味全', type: '食用油', tag: ''},
+    {name: '味全健康三利多精華調合油', pict: 'wc124.png', brand: '味全', type: '食用油', tag: ''},
+    {name: '味全御膳六寶調合油', pict: 'wc125.png', brand: '味全', type: '食用油', tag: ''},
+    {name: '味全珍饌寶精華調合油', pict: 'wc126.png', brand: '味全', type: '食用油', tag: ''},
+    {name: '味全高溫安定義式調合油', pict: 'wc127.png', brand: '味全', type: '食用油', tag: ''},
+    {name: '味全皇家莊園精華調合油', pict: 'wc128.png', brand: '味全', type: '食用油', tag: ''},
+
+    {name: '布列德麵包店', pict: 'bread001.png', brand: '布列德', type: '麵包', tag: ''},
+    {name: '德克士炸雞', pict: 'dicos001.png', brand: 'dicos', type: '熟食', tag: ''},
 
     // 統一
     {name: '茶裏王', pict: 'pecos001.png', brand: '統一', type: '包裝茶', tag: '茶'},
