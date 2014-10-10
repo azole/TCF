@@ -25,3 +25,9 @@ mainApp.controller('mainCtrl', function($scope) {
     {name: '大醇豆', pict: 'wc019.png', brand: '味全', type: '豆漿', tag: ''}
   ];
 });
+
+// {name: '', pict: '', brand: '', type: '', tag: ''}
+// name: 產品名稱
+// pict: 產品品牌圖片
+// type: 產品分類
+// tag: 有助於過濾、查詢的關鍵字
