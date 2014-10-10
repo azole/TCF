@@ -22,11 +22,18 @@ mainApp.controller('mainCtrl', function($scope) {
     {name: '味全ABLS優酪乳', pict: 'wc016.png', brand: '味全', type: '優酪乳', tag: ''},
     {name: '林鳳營優酪乳', pict: 'wc017.png', brand: '味全', type: '優酪乳', tag: ''},
     {name: 'LCA506', pict: 'wc018.png', brand: '味全', type: '稀釋發酵乳', tag: ''},
-    {name: '大醇豆', pict: 'wc019.png', brand: '味全', type: '豆漿', tag: ''}
+    {name: '大醇豆', pict: 'wc019.png', brand: '味全', type: '豆漿', tag: ''},
+    {name: '味全高鮮', pict: 'wc020.png', brand: '味全', type: '調味料', tag: ''},
+    {name: '健康廚房調味料', pict: 'wc021.png', brand: '味全', type: '調味料', tag: ''},
+    {name: '味全醬油', pict: 'wc022.png', brand: '味全', type: '醬品', tag: ''},
+    {name: '淬釀', pict: 'wc023.png', brand: '味全', type: '醬品', tag: '醬油'},
+    {name: '味全調味醬', pict: 'wc024.png', brand: '味全', type: '醬品', tag: ''},
+    {name: '味全料理醬', pict: 'wc025.png', brand: '味全', type: '醬品', tag: ''},
+    {name: '健康廚房沾拌淋醬', pict: 'wc026.png', brand: '味全', type: '醬品', tag: ''}
   ];
 });
 
-// {name: '', pict: '', brand: '', type: '', tag: ''}
+// {name: '', pict: '', brand: '', type: '', tag: ''},
 // name: 產品名稱
 // pict: 產品品牌圖片
 // type: 產品分類
