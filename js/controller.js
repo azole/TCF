@@ -50,7 +50,7 @@ mainApp.controller('mainCtrl', function($scope) {
   ];
   $scope.speed = 'nga-default';
   $scope.stagger = 'nga-stagger';
-  $scope.classes = 'nga-slide-left';
+  $scope.classes = 'nga-squash-left';
 });
 
 // {name: '', pict: '', brand: '', type: '', tag: ''},
