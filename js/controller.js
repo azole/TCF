@@ -1,6 +1,6 @@
 'use strict';
 
-var mainApp = angular.module('mainApp', []);
+var mainApp = angular.module('mainApp', ['ngAnimate']);
 
 mainApp.controller('mainCtrl', function($scope) {
   $scope.filterBtns = [
@@ -48,6 +48,9 @@ mainApp.controller('mainCtrl', function($scope) {
     {name: '味全雞蛋布丁', pict: 'wc027.png', brand: '味全', type: '點心', tag: ''},
     {name: '原味優格', pict: 'wc028.png', brand: '味全', type: '點心', tag: ''},
   ];
+  $scope.speed = 'nga-default';
+  $scope.stagger = 'nga-stagger';
+  $scope.classes = 'nga-squash-left';
 });
 
 // {name: '', pict: '', brand: '', type: '', tag: ''},

@@ -2,8 +2,11 @@
 <html lang="en" ng-app="mainApp">
 
 <head>
+  <script src="js/libs/html5shiv.min.js"></script>
   <meta charset="UTF-8">
   <title>整個台灣都是你的化工廠(建置中)</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/libs/nga.all.min.css">
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
   <link rel="stylesheet" href="css/main.css">
 </head>
@@ -12,13 +15,14 @@
   過濾：<input type="text" ng-model="query" value="" placeholder="關鍵字：果汁、牛奶..."><br/>
   快速過濾：<button class="filter" ng-repeat="f in filterBtns" ng-click="setQuery(f.name)">{{f.name}}</button>
   <div id="container">
-    <div class="item" ng-repeat="d in dataObj | filter:query">
-        <img ng-src="picts/{{d.pict}}" alt="{{d.name}}">
-        <span>{{d.name}}</span>
+    <figure class="col-xs-6 col-sm-4 col-md-2 item {{speed}} {{stagger}} {{classes}}" ng-repeat="d in dataObj | filter:query">
+      <img ng-src="picts/{{d.pict}}" alt="{{d.name}}">
+      <figcaption>{{d.name}}</figcaption>
     </div>
-  </div>
+  </figure>
 
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular-animate.min.js"></script>
   <script src="js/controller.js"></script>
 </body>
 

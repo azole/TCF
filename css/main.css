@@ -1,14 +1,10 @@
-#container {
-  margin: 10px;
-  border: 0px solid;
-  padding: 5px;
-  width: 90%;
+body {
+  margin: 0;
 }
-.item {
-  float: left;
-  margin: 5px;
+.item img {
+  width: 100%;
+  display: block;
 }
-
 .filter {
   margin: 3px;
   padding: 2px;
