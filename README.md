@@ -8,6 +8,7 @@
 所以我花了幾分鐘，試做了這樣的概念，但我太久沒有做前端了，又 CSS 無能，想找找看有沒有朋友連假在家太無聊想寫寫程式的。  
   
 目前的狀況是：暫時放在 dropbox 上。   
+Demo 網址：<a href="http://ppt.cc/SjQn">Demo</a>
 
 TODO List:
 <ul>
