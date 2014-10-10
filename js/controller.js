@@ -9,7 +9,9 @@ mainApp.controller('mainCtrl', function($scope) {
     {name: '牛奶'}, 
     {name: '醬油'}, 
     {name: '調味料'}, 
-    {name: '水'}
+    {name: '水'},
+    {name: '統一'},
+    {name: '味全'}
   ];
   $scope.setQuery = function(q){
     if(q==='全部') {
@@ -115,8 +117,8 @@ mainApp.controller('mainCtrl', function($scope) {
 
   ];
   $scope.speed = 'nga-default';
-  $scope.stagger = 'nga-stagger';
-  $scope.classes = 'nga-squash-left';
+  $scope.stagger = 'nga-none';
+  $scope.classes = 'nga-fade';
 });
 
 // {name: '', pict: '', brand: '', type: '', tag: ''},
