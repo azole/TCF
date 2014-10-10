@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="mainApp">
+
+<head>
+  <meta charset="UTF-8">
+  <title>整個台灣都是你的化工廠</title>
+</head>
+
+<body ng-controller="mainCtrl">
+  過濾：<input type="text" ng-model="query" value="" placeholder="關鍵字：果汁、牛奶...">
+  <ul>
+    <li ng-repeat="d in dataObj | filter:query">
+      <div>
+        <img ng-src="picts/{{d.pict}}" alt="{{d.name}}">
+        <span>{{d.name}}</span>
+      </div>
+    </li>
+  </ul>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+  <script src="controller.js"></script>
+</body>
+
+</html>
