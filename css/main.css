@@ -5,3 +5,7 @@ body {
   width: 100%;
   display: block;
 }
+.filter {
+  margin: 3px;
+  padding: 2px;
+}
