@@ -44,7 +44,9 @@ mainApp.controller('mainCtrl', function($scope) {
     {name: '淬釀', pict: 'wc023.png', brand: '味全', type: '醬品', tag: '醬油 調味料'},
     {name: '味全調味醬', pict: 'wc024.png', brand: '味全', type: '醬品', tag: '調味料'},
     {name: '味全料理醬', pict: 'wc025.png', brand: '味全', type: '醬品', tag: '調味料'},
-    {name: '健康廚房沾拌淋醬', pict: 'wc026.png', brand: '味全', type: '醬品', tag: '調味料'}
+    {name: '健康廚房沾拌淋醬', pict: 'wc026.png', brand: '味全', type: '醬品', tag: '調味料'},
+    {name: '味全雞蛋布丁', pict: 'wc027.png', brand: '味全', type: '點心', tag: ''},
+    {name: '原味優格', pict: 'wc028.png', brand: '味全', type: '點心', tag: ''},
   ];
 });
 
