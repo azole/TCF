@@ -3,6 +3,12 @@
 var mainApp = angular.module('mainApp', []);
 
 mainApp.controller('mainCtrl', function($scope) {
+  $scope.filterBtns = [
+    {name: '果汁'}, 
+    {name: '牛奶'}, 
+    {name: '醬油'}, 
+    {name: '水'}
+  ];
   $scope.dataObj = [
     {name: '每日C', pict: 'wc001.png', brand: '味全', type: '果汁', tag: ''},
     {name: '原榨', pict: 'wc002.png', brand: '味全', type: '果汁', tag: ''},

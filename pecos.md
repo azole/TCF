@@ -11,7 +11,7 @@
 {name: '', pict: '', brand: '', type: '', tag: ''},
 name: 產品名稱
 pict: 產品品牌圖片
-type: 產品分類
+type: 產品分類，就按照該公司自己的分類。
 tag: 有助於過濾、查詢的關鍵字，例如有些果汁，但 name 或 type 裡頭沒有果汁二字，就可以加入 tag 中。
 ```
 

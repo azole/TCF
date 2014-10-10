@@ -9,6 +9,7 @@
 
 <body ng-controller="mainCtrl">
   過濾：<input type="text" ng-model="query" value="" placeholder="關鍵字：果汁、牛奶...">
+  快速過濾：<span class="filter" ng-repeat="f in filterBtns">{{f.name}}</span>
   <div id="container">
     <div class="item" ng-repeat="d in dataObj | filter:query">
         <img ng-src="picts/{{d.pict}}" alt="{{d.name}}">
