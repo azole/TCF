@@ -1,7 +1,9 @@
 body {
   margin: 0;
 }
-
+#logo {
+  float:left;
+}
 #header {
   margin: 10px;
 }
