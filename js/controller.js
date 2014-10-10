@@ -1,8 +1,8 @@
 'use strict';
 
-var mainApp = angular.module('mainApp', []);
+var mainApp = angular.module('mainApp', ['ngAnimate']);
 
-mainApp.controller('mainCtrl', function($scope) {
+mainApp.controller('mainCtrl', ['$scope', function($scope, $timeout) {
   $scope.dataObj = [
     {name: '每日C', pict: 'wc001.png', brand: '味全', type: '果汁', tag: ''},
     {name: '原榨', pict: 'wc002.png', brand: '味全', type: '果汁', tag: ''},
@@ -24,7 +24,10 @@ mainApp.controller('mainCtrl', function($scope) {
     {name: 'LCA506', pict: 'wc018.png', brand: '味全', type: '稀釋發酵乳', tag: ''},
     {name: '大醇豆', pict: 'wc019.png', brand: '味全', type: '豆漿', tag: ''}
   ];
-});
+  $scope.speed = 'nga-default';
+  $scope.stagger = 'nga-stagger';
+  $scope.classes = 'nga-slide-left';
+}]);
 
 // {name: '', pict: '', brand: '', type: '', tag: ''}
 // name: 產品名稱
