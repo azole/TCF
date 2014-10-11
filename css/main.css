@@ -16,3 +16,7 @@ body {
   margin: 3px;
   padding: 2px;
 }
+.item{
+	float: none;
+	display: inline-block;
+}
