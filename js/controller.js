@@ -59,7 +59,15 @@ mainApp.controller('mainCtrl', function($scope) {
     {name: '味全料理醬', pict: 'wc025.png', brand: '味全', type: '醬品', tag: '調味料'},
     {name: '健康廚房沾拌淋醬', pict: 'wc026.png', brand: '味全', type: '醬品', tag: '調味料'},
     {name: '味全雞蛋布丁', pict: 'wc027.png', brand: '味全', type: '點心', tag: ''},
-    {name: '原味優格', pict: 'wc028.png', brand: '味全', type: '點心', tag: ''},
+    
+    {name: '味全果汁奶粉原味', pict: 'wc029.png', brand: '味全', type: '奶粉', tag: '牛奶'},
+    {name: '味全果汁奶粉好雪亮', pict: 'wc030.png', brand: '味全', type: '奶粉', tag: '牛奶'},
+    {name: '蘋果奶粉', pict: 'wc031.png', brand: '味全', type: '奶粉', tag: '牛奶'},
+    {name: '全家優鈣奶粉', pict: 'wc032.png', brand: '味全', type: '奶粉', tag: '牛奶'},
+    {name: '健康益生', pict: 'wc033.png', brand: '味全', type: '奶粉', tag: '牛奶'},
+    {name: '', pict: 'wc034.png', brand: '味全', type: '奶粉', tag: '牛奶'},
+    {name: '', pict: 'wc035.png', brand: '味全', type: '奶粉', tag: '牛奶'},
+    {name: '', pict: 'wc036.png', brand: '味全', type: '奶粉', tag: '牛奶'},
 
     {name: '味小寶純豬肉酥', pict: 'wc101.png', brand: '味全', type: '肉酥', tag: ''},
     {name: '味小寶海苔豬肉酥', pict: 'wc102.png', brand: '味全', type: '肉酥', tag: ''},
