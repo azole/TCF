@@ -81,8 +81,6 @@ mainApp.controller('mainCtrl', function($scope) {
     {name: '醇品穀麥飲-芝麻黑豆', pict: 'wc047.png', brand: '味全', type: '營養品', tag: ''},
     {name: '醇品穀麥飲-山藥薏仁', pict: 'wc048.png', brand: '味全', type: '營養品', tag: ''},
     {name: '醇品穀麥飲-十穀擂茶', pict: 'wc049.png', brand: '味全', type: '營養品', tag: ''},
-    {name: '', pict: 'wc050.png', brand: '味全', type: '營養品', tag: ''},
-
 
     {name: '味小寶純豬肉酥', pict: 'wc101.png', brand: '味全', type: '肉酥', tag: ''},
     {name: '味小寶海苔豬肉酥', pict: 'wc102.png', brand: '味全', type: '肉酥', tag: ''},
