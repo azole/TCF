@@ -41,8 +41,9 @@ mainApp.controller('mainCtrl', function($scope) {
     {name: '味全果汁', pict: 'wc004.png', brand: '味全', type: '稀釋果汁', tag: ''},
     {name: '36法郎', pict: 'wc006.png', brand: '味全', type: '咖啡', tag: ''},
     {name: '大絕韻', pict: 'wc007.png', brand: '味全', type: '茶', tag: ''},
-    {name: '涼爽茶', pict: 'wc008.png', brand: '統一', type: '茶', tag: ''},
+    {name: '涼爽茶', pict: 'wc008.png', brand: '味全', type: '茶', tag: ''},
 
+    {name: '木崗雞蛋', pict: 'th003.png', brand: '味全', type: '茶', tag: ''},
     {name: '維力清香油', pict: 'ci001.png', brand: '正義', type: '食用油', tag: ''},
     {name: '正義香豬油', pict: 'ci002.png', brand: '正義', type: '食用油', tag: ''},
     {name: '維力香豬油', pict: 'ci003.png', brand: '正義', type: '食用油', tag: ''},
