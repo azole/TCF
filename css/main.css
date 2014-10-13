@@ -24,3 +24,7 @@ body {
 #reference {
   padding-left:20px;
 }
+
+.list-item {
+  padding: 4px;
+}
