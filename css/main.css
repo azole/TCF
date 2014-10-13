@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+#logo {
+  float:left;
+}
+#header {
+  margin: 10px;
+}
+
+.item img {
+  width: 100%;
+  display: block;
+}
+.filter {
+  margin: 3px;
+  padding: 2px;
+}
+.item{
+	float: none;
+	display: inline-block;
+}
