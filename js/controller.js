@@ -25,6 +25,7 @@ mainApp.controller('mainCtrl', function($scope) {
   $scope.dataObj = [
     
     {name: '台灣之星', pict: 'th001.png', brand: '頂新', type: '電信', tag: ''},
+    {name: '松青超市', pict: 'th002.png', brand: '頂新', type: '零售商', tag: ''},
 
     {name: '每日C', pict: 'wc001.png', brand: '味全', type: '果汁', tag: ''},
     {name: '貝納頌', pict: 'wc005.png', brand: '味全', type: '咖啡', tag: ''},
