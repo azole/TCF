@@ -42,6 +42,13 @@ mainApp.controller('mainCtrl', function($scope) {
     {name: '36法郎', pict: 'wc006.png', brand: '味全', type: '咖啡', tag: ''},
     {name: '大絕韻', pict: 'wc007.png', brand: '味全', type: '茶', tag: ''},
     {name: '涼爽茶', pict: 'wc008.png', brand: '統一', type: '茶', tag: ''},
+
+    {name: '維力清香油', pict: 'ci001.png', brand: '正義', type: '食用油', tag: ''},
+    {name: '正義香豬油', pict: 'ci002.png', brand: '正義', type: '食用油', tag: ''},
+    {name: '維力香豬油', pict: 'ci003.png', brand: '正義', type: '食用油', tag: ''},
+    {name: '洋洋香香系列酥油瑪琪琳', pict: 'ci004.png', brand: '正義', type: '烘培油', tag: ''},
+    {name: '正義特级酥油', pict: 'ci005.png', brand: '正義', type: '烘培油', tag: ''}
+    
     {name: '天然水', pict: 'wc009.png', brand: '味全', type: '水', tag: ''},
     {name: 'Apas礦泉水', pict: 'wc010.png', brand: '味全', type: '水', tag: ''},
     {name: 'VOSSI 加拿大冰河水', pict: 'wc011.png', brand: '味全', type: '水', tag: ''},
@@ -82,7 +89,6 @@ mainApp.controller('mainCtrl', function($scope) {
     {name: '醇品穀麥飲-山藥薏仁', pict: 'wc048.png', brand: '味全', type: '營養品', tag: ''},
     {name: '醇品穀麥飲-十穀擂茶', pict: 'wc049.png', brand: '味全', type: '營養品', tag: ''},
     {name: '木蘭四物飲', pict: 'wc050.png', brand: '味全', type: '生計', tag: ''},
-
 
     {name: '味小寶純豬肉酥', pict: 'wc101.png', brand: '味全', type: '肉酥', tag: ''},
     {name: '味小寶海苔豬肉酥', pict: 'wc102.png', brand: '味全', type: '肉酥', tag: ''},
