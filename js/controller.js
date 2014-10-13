@@ -27,6 +27,7 @@ mainApp.controller('mainCtrl', function($scope) {
     {name: '台灣之星', pict: 'th001.png', brand: '頂新', type: '電信', tag: ''},
     {name: '松青超市', pict: 'th002.png', brand: '頂新', type: '零售商', tag: ''},
 
+    {name: '味全雞蛋布丁', pict: 'wc027.png', brand: '味全', type: '點心', tag: ''},
     {name: '每日C', pict: 'wc001.png', brand: '味全', type: '果汁', tag: ''},
     {name: '貝納頌', pict: 'wc005.png', brand: '味全', type: '咖啡', tag: ''},
     {name: '林鳳營鮮乳', pict: 'wc013.png', brand: '味全', type: '鮮乳', tag: '牛奶'},
@@ -66,7 +67,6 @@ mainApp.controller('mainCtrl', function($scope) {
     {name: '味全調味醬', pict: 'wc024.png', brand: '味全', type: '醬品', tag: '調味料'},
     {name: '味全料理醬', pict: 'wc025.png', brand: '味全', type: '醬品', tag: '調味料'},
     {name: '健康廚房沾拌淋醬', pict: 'wc026.png', brand: '味全', type: '醬品', tag: '調味料'},
-    {name: '味全雞蛋布丁', pict: 'wc027.png', brand: '味全', type: '點心', tag: ''},
     
     {name: '味全果汁奶粉原味', pict: 'wc029.png', brand: '味全', type: '奶粉', tag: '牛奶'},
     {name: '味全果汁奶粉好雪亮', pict: 'wc030.png', brand: '味全', type: '奶粉', tag: '牛奶'},
