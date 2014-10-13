@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="mainApp">
+
+<head>
+  <script src="js/libs/html5shiv.min.js"></script>
+  <meta charset="UTF-8">
+  <title>整個台灣都是你的化工廠(建置中)</title>
+  <link rel="icon" type="image/png" href="factory-s.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/libs/nga.all.min.css">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body ng-controller="mainCtrl">
+  <img src="factory.png" alt="整個台灣都是我的化工廠" id="logo">
+  <div id="header">
+    製作：Cyril, Eden, Kate, Kylie</br>
+    過濾：
+    <input type="text" ng-model="query" value="" placeholder="關鍵字：果汁、牛奶...">
+    <br/>快速過濾：
+    <button class="filter" ng-repeat="f in filterBtns" ng-click="setQuery(f.name)">{{f.name}}</button>
+  </div>
+  <div id="container">
+    <figure class="col-xs-6 col-sm-4 col-md-2 item {{speed}} {{stagger}} {{classes}}" ng-repeat="d in dataObj | filter:query">
+      <img ng-src="picts/{{d.pict}}" alt="{{d.name}}">
+      <figcaption>{{d.brand}} / {{d.name}}</figcaption>
+  </div>
+  </figure>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular-animate.min.js"></script>
+  <script src="js/controller.js"></script>
+
+  <script type="text/javascript">
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+  <script type="text/javascript">
+  try {
+    var pageTracker = _gat._getTracker("UA-39777275-3");
+    pageTracker._trackPageview();
+  } catch (err) {}
+  </script>
+</body>
+
+</html>
