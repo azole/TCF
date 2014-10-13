@@ -12,7 +12,8 @@ mainApp.controller('mainCtrl', function($scope) {
     {name: '調味料'}, 
     {name: '水'},
     {name: '統一'},
-    {name: '味全'}
+    {name: '味全'},
+    {name: '頂新'}
   ];
   $scope.setQuery = function(q){
     if(q==='全部') {
@@ -22,6 +23,9 @@ mainApp.controller('mainCtrl', function($scope) {
     }
   };
   $scope.dataObj = [
+    
+    {name: '台灣之星', pict: 'th001.png', brand: '頂新', type: '電信', tag: ''},
+
     {name: '每日C', pict: 'wc001.png', brand: '味全', type: '果汁', tag: ''},
     {name: '貝納頌', pict: 'wc005.png', brand: '味全', type: '咖啡', tag: ''},
     {name: '林鳳營鮮乳', pict: 'wc013.png', brand: '味全', type: '鮮乳', tag: '牛奶'},
@@ -80,6 +84,7 @@ mainApp.controller('mainCtrl', function($scope) {
     {name: '味全珍饌寶精華調合油', pict: 'wc126.png', brand: '味全', type: '食用油', tag: ''},
     {name: '味全高溫安定義式調合油', pict: 'wc127.png', brand: '味全', type: '食用油', tag: ''},
     {name: '味全皇家莊園精華調合油', pict: 'wc128.png', brand: '味全', type: '食用油', tag: ''},
+
     // 統一
     {name: '茶裏王', pict: 'pecos001.png', brand: '統一', type: '包裝茶', tag: '茶'},
     {name: '麥香', pict: 'pecos002.png', brand: '統一', type: '包裝茶', tag: '紅茶'},
