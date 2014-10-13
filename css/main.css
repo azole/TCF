@@ -20,3 +20,7 @@ body {
 	float: none;
 	display: inline-block;
 }
+
+.reference {
+  left-padding:10px;
+}
