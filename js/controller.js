@@ -32,8 +32,6 @@ mainApp.controller('mainCtrl', function($scope) {
     {name: '貝納頌', pict: 'wc005.png', brand: '味全', type: '咖啡', tag: ''},
     {name: '林鳳營鮮乳', pict: 'wc013.png', brand: '味全', type: '鮮乳', tag: '牛奶'},
     {name: '味全辣味肉醬', pict: 'wc108.png', brand: '味全', type: '肉醬', tag: ''},
-    {name: '味全珍味肉醬', pict: 'wc109.png', brand: '味全', type: '肉醬', tag: ''},
-    {name: '味全瓜仔肉', pict: 'wc110.png', brand: '味全', type: '肉醬', tag: ''},
     {name: '布列德麵包店', pict: 'bread001.png', brand: '布列德', type: '麵包', tag: ''},
     {name: '德克士炸雞', pict: 'dicos001.png', brand: 'dicos', type: '熟食', tag: ''},
     {name: '林鳳營優酪乳', pict: 'wc017.png', brand: '味全', type: '優酪乳', tag: ''},
@@ -57,6 +55,8 @@ mainApp.controller('mainCtrl', function($scope) {
 
     {name: '酸菜牛肉湯麵', pict: 'wc053.png', brand: '味全', type: '速食麵/麵條', tag: '康師傅 泡麵'},
     {name: '雪筍肉絲湯麵', pict: 'wc054.png', brand: '味全', type: '速食麵/麵條', tag: '康師傅 泡麵'},
+    {name: '味全珍味肉醬', pict: 'wc109.png', brand: '味全', type: '肉醬', tag: ''},
+    {name: '味全瓜仔肉', pict: 'wc110.png', brand: '味全', type: '肉醬', tag: ''},
     
     {name: '天然水', pict: 'wc009.png', brand: '味全', type: '水', tag: ''},
     {name: 'Apas礦泉水', pict: 'wc010.png', brand: '味全', type: '水', tag: ''},
