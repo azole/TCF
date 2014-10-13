@@ -47,8 +47,8 @@ mainApp.controller('mainCtrl', function($scope) {
     {name: '正義香豬油', pict: 'ci002.png', brand: '正義', type: '食用油', tag: ''},
     {name: '維力香豬油', pict: 'ci003.png', brand: '正義', type: '食用油', tag: ''},
     {name: '洋洋香香系列酥油瑪琪琳', pict: 'ci004.png', brand: '正義', type: '烘培油', tag: ''},
-    {name: '正義特级酥油', pict: 'ci005.png', brand: '正義', type: '烘培油', tag: ''}
-    
+    {name: '正義特级酥油', pict: 'ci005.png', brand: '正義', type: '烘培油', tag: ''},
+
     {name: '天然水', pict: 'wc009.png', brand: '味全', type: '水', tag: ''},
     {name: 'Apas礦泉水', pict: 'wc010.png', brand: '味全', type: '水', tag: ''},
     {name: 'VOSSI 加拿大冰河水', pict: 'wc011.png', brand: '味全', type: '水', tag: ''},
