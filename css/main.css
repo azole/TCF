@@ -54,7 +54,6 @@ body {
 .clear {
   clear: both;
 }
-
 .warning {
   padding-top: 3px;
 }
@@ -133,18 +132,12 @@ button:active {
 #container {
   margin: 10px;
 }
-.ingred {
-  border: 1px solid gray;
-  display: inline-block;
-  width: 200px;
-  padding: 1px;
-}
 .ingred-name {
-  border-bottom: 1px solid gray;
+  width: 120px;
 }
-.ingred-intro {}
-
-
+.ingred-type {
+  width: 80px;
+}
 @media only screen and (max-width: 480px) {
   .text {
     line-height: 20px;
@@ -161,5 +154,11 @@ button:active {
   }
   .ingred {
     width: 100%;
+  }
+  .ingred-name {
+    width: 80px;
+  }
+  .ingred-type {
+    width: 40px;
   }
 }
