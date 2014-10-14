@@ -88,8 +88,8 @@ button:active {
 @media only screen and (max-width : 480px) {
 	#logo_img{
 		background-image: url('../logo_s.png');
-		width: 390px;
-		height: 142px;
+		width: 151px;
+		height: 188px;
 		margin-left: 0;
 		padding: 5px;
 	}
