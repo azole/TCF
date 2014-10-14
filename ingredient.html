@@ -40,6 +40,7 @@
     <input type="text" ng-model="query" value="" placeholder="關鍵字：...">
   </div>
   <div id="container">
+    <div>資料來源：<a href="http://law.moj.gov.tw/LawClass/LawContent.aspx?pcode=L0040084" target="_blank">食品添加物使用範圍及限量暨規格標準</a></div>
     <table class="table table-hover table-condensed">
       <tr>
         <td>名稱</td>
@@ -49,7 +50,7 @@
       <tr ng-repeat="d in dataObj | filter:query">
         <td class="ingred-name">{{d.name}}</td>
         <td class="ingred-type">{{d.type}}</td>
-        <td>{{d.intro}}</td>
+        <td>{{d.ename}} {{d.intro}}</td>
       </tr>
     </table>
   </div>
