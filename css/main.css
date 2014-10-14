@@ -1,12 +1,10 @@
-[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {  
-  display: none !important;  
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
 }
-
 body {
   margin: 0;
   width: 100%;
 }
-
 #header {
   text-align: left;
   margin: 0 auto;
@@ -14,30 +12,27 @@ body {
   padding: 10px;
   position: relative;
 }
-
 #logo {
-	display: inline-block;
-	text-align: center;
-/*	width: 100%;*/
-	margin: 10px 0 0 0 ;
-	float:left;
+  display: inline-block;
+  text-align: center;
+  /*	width: 100%;*/
+  
+  margin: 10px 0 0 0;
+  float: left;
 }
-
 #nav {
-	text-align: left;
+  text-align: left;
   margin: 0 auto;
   max-width: 800px;
   padding: 10px;
   position: absolute;
-  left: 100px;
+  left: 220px;
   bottom: 15px;
 }
-
 #nav a {
-	display: inline-block;
-	padding: 10px 10px 0 0;
+  display: inline-block;
+  padding: 10px 10px 0 0;
 }
-
 /*#logo_img {
   display: inline-block;
   padding: 30px 10px 0 10px;
@@ -48,38 +43,35 @@ body {
 }
 */
 
-#logo_img{
-	background-image: url('../logo_s2.png');
-	width: 80px;
-	height: 100px;
-	margin-left: 0;
-	padding: 5px;
-	background-repeat: no-repeat;
+#logo_img {
+  background-image: url('../logo2.png');
+  width: 200px;
+  height: 100px;
+  margin-left: 0;
+  padding: 5px;
+  background-repeat: no-repeat;
 }
-
-
 .clear {
-	clear: both;
+  clear: both;
 }
-.logo_lift{
-	margin-left: -42px;
+.logo_lift {
+  margin-left: -42px;
 }
-
 #query {
-	text-align: left;
+  text-align: left;
   margin: 0 auto;
   max-width: 800px;
   padding: 10px;
 }
-ul{
-	margin: 0 auto;
-	width: 100%;
-	text-align: center;
-	padding: 0;
+ul {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  padding: 0;
 }
-li{
-	padding: 0;
-	list-style: none;
+li {
+  padding: 0;
+  list-style: none;
 }
 .item img {
   width: 100%;
@@ -89,55 +81,61 @@ li{
   margin: 10px 10px 0px 0;
 }
 .filter {
-	margin: 5px 5px 0px 0;
+  margin: 5px 5px 0px 0;
 }
-.item{
-	float: none;
-	display: inline-block;
+.item {
+  float: none;
+  display: inline-block;
 }
-input{
-	width: 77%;
-	display: inline-block;
-	margin-top: 10px;
+input {
+  width: 77%;
+  display: inline-block;
+  margin-top: 10px;
 }
 button {
-	background-color:#022601;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:arial;
-	font-size:11px;
-	font-weight:bold;
-	padding:5px 32px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #3d768a;
-	border: none;
+  background-color: #022601;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: arial;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 5px 32px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #3d768a;
+  border: none;
 }
 button:hover {
-	background-color:#158C03;
+  background-color: #158C03;
 }
 button:active {
-	position:relative;
-	top:1px;
+  position: relative;
+  top: 1px;
 }
-.text{
-	line-height: 20px;
-	max-width: 800px;
-	margin: 0px auto;
-	padding: 5px;
+.text {
+  line-height: 20px;
+  max-width: 800px;
+  margin: 0px auto;
+  padding: 5px;
 }
-.center{
-	text-align: center!important;
+.center {
+  text-align: center!important;
 }
-
 #reference li {
-	line-height: 24px;
+  line-height: 24px;
 }
-@media only screen and (max-width : 480px) {
-	.text {
-		line-height: 20px;
-		max-width: 100%;
-		margin: 0px auto;
-		padding: 10px;
-	}
+@media only screen and (max-width: 480px) {
+  .text {
+    line-height: 20px;
+    max-width: 100%;
+    margin: 0px auto;
+    padding: 10px;
+  }
+  #logo_img {
+    background-image: url('../logo_s2.png');
+    width: 80px;
+  }
+  #nav {
+    left: 100px;
+  }
 }
