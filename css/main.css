@@ -124,6 +124,23 @@ button:active {
 #reference li {
   line-height: 24px;
 }
+/*************/
+
+#container {
+  margin: 10px;
+}
+.ingred {
+  border: 1px solid gray;
+  display: inline-block;
+  width: 200px;
+  padding: 1px;
+}
+.ingred-name {
+  border-bottom: 1px solid gray;
+}
+.ingred-intro {}
+
+
 @media only screen and (max-width: 480px) {
   .text {
     line-height: 20px;
@@ -142,18 +159,3 @@ button:active {
     width: 100%;
   }
 }
-/*************/
-
-#container {
-  margin: 10px;
-}
-.ingred {
-  border: 1px solid gray;
-  display: inline-block;
-  width: 200px;
-  padding: 1px;
-}
-.ingred-name {
-  border-bottom: 1px solid gray;
-}
-.ingred-intro {}
