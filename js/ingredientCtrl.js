@@ -525,6 +525,570 @@ mainApp.controller('mainCtrl', function($scope) {
     type: '膨脹劑',
     intro: '',
     tag: ''
+  }, {
+    name: '氯化鈣',
+    ename: 'Calcium Chloride',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '氫氧化鈣',
+    ename: 'Calcium Hydroxide',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '硫酸鈣',
+    ename: 'Calcium Sulfate',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '葡萄糖酸鈣',
+    ename: 'Calcium Gluconate',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '檸檬酸鈣',
+    ename: 'Calcium Citrate',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '磷酸二氫鈣',
+    ename: 'Calcium Phosphate，Monobasic',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '磷酸氫鈣',
+    ename: 'Calcium Phosphate，Dibasic',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '磷酸氫鈣（無水）',
+    ename: 'Calcium Phosphate，Dibasic(Anhydrous)',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '磷酸鈣',
+    ename: 'Calcium Phosphate，Tribasic',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '酸性焦磷酸鈣',
+    ename: 'Calcium Dihydrogen Pyrophosphate',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '甘油醇磷酸鈣',
+    ename: 'Calcium Glycerophosphate',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '乳酸鈣',
+    ename: 'Calcium Lactate',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '硬脂酸乳酸鈣',
+    ename: 'Calcium Stearoyl Lactylate',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '碳酸鈣',
+    ename: 'Calcium Carbonate',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '碳酸銨',
+    ename: 'Ammonium Carbonate',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '碳酸鉀',
+    ename: 'Potassium Carbonate',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '碳酸鈉、無水碳酸鈉',
+    ename: 'Sodium Carbonate ; Sodium Carbonate , Anhydrous',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '碳酸鎂',
+    ename: 'Magnesium Carbonate',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '硫酸銨',
+    ename: 'Ammonium Sulfate',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '硫酸鈉',
+    ename: 'Sodium Sulfate',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '硬脂酸鎂',
+    ename: 'Magnesium Stearate',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '硫酸鎂',
+    ename: 'Magnesium Sulfate',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '氯化鎂',
+    ename: 'Magnesium Chloride',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '磷酸二氫銨',
+    ename: 'Ammonium Phosphate，Monobasic',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '磷酸氫二銨',
+    ename: 'Ammonium Phosphate，Dibasic',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '磷酸二氫鉀',
+    ename: 'Potassium Phosphate，Monobasic',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '磷酸氫二鉀',
+    ename: 'Potassium Phosphate，Dibasic',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '磷酸鉀',
+    ename: 'Potassium Phosphate，Tribasic',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '磷酸二氫鈉',
+    ename: 'Sodium Phosphate , Monobasic',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '磷酸二氫鈉（無水）',
+    ename: 'Sodium Phosphate , Monobasic（Anhydrous）',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '磷酸氫二鈉',
+    ename: 'Sodium Phosphate , Dibasic',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '磷酸氫二鈉（無水）',
+    ename: 'Sodium Phosphate , Dibasic（Anhydrous）',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '磷酸鈉',
+    ename: 'Sodium Phosphate , Tribasic',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '磷酸鈉（無水）',
+    ename: 'Sodium Phosphate , Tribasic（Anhydrous）',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '偏磷酸鉀',
+    ename: 'Potassium Metaphosphate',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '偏磷酸鈉',
+    ename: 'Sodium Metaphosphate',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '多磷酸鉀',
+    ename: 'Potassium Polyphosphate',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '多磷酸鈉',
+    ename: 'Sodium Polyphosphate',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '醋酸鈉；醋酸鈉（無水）',
+    ename: 'Sodium Acetate；Sodium Acetate（Anhydrous）',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '甘油',
+    ename: 'Glycerol',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '乳酸硬脂酸鈉',
+    ename: 'Sodium Stearyl 2- Lactylate',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '皂土',
+    ename: 'Bentonite',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '矽酸鋁',
+    ename: 'Aluminum Silicate',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '矽藻土',
+    ename: 'Diatomaceous Earth',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '滑石粉',
+    ename: 'Talc',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: 'L-半胱氨酸鹽酸鹽',
+    ename: 'L-Cysteine Monohydrochloride',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '亞鐵氰化鈉',
+    ename: 'Sodium Ferrocyanide',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '矽酸鈣',
+    ename: 'Calcium Silicate',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '矽鋁酸鈉',
+    ename: 'Sodium Silicoaluminate',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '乙烯二胺四醋酸二鈉或乙烯二胺四醋酸二鈉鈣',
+    ename: 'EDTA Na2 or EDTA CaNa2',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '二氧化矽',
+    ename: 'Silicon Dioxide',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '氧化鈣',
+    ename: 'Calcium Oxide',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '碳酸氫鉀',
+    ename: 'Potassium Bicarbonate',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '木松香甘油酯',
+    ename: 'Glycerol Ester of Wood Rosin',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '石油蠟',
+    ename: 'Petroleum Wax',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '米糠蠟',
+    ename: 'Rice Bran Wax',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '硬脂酸',
+    ename: 'Stearic Acid',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '己二酸',
+    ename: 'Adipic Acid',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '硫酸鋁',
+    ename: 'Aluminum Sulfate',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '珍珠岩粉',
+    ename: 'Perlite',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '硬脂酸鈉',
+    ename: 'Sodium Stearate',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '硬脂酸鉀',
+    ename: 'Potassium Stearate',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '羥丙基纖維素',
+    ename: 'Hydroxypropyl Cellulose',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '羥丙基甲基纖維素',
+    ename: 'Hydroxypropyl Methylcellulose（Propylene Glycol Ether of Methylcellulose）',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '聚糊精',
+    ename: 'Polydextrose',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '食用石膏',
+    ename: 'Food Gypsum',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '酸性白土（活性白土）',
+    ename: 'Acid Clay（Active Clay）',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '酸性焦磷酸鈉',
+    ename: 'Disodium Dihydrogen Pyrophosphate',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '棕櫚蠟',
+    ename: 'Carnauba Wax',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '焦磷酸鉀',
+    ename: 'Potassium Pyrophosphate',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '焦磷酸鈉',
+    ename: 'Sodium Pyrophosphate',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '焦磷酸鈉（無水）',
+    ename: 'Sodium Pyrophosphate (Anhydrous)',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '無水氯化鈣',
+    ename: 'Calcium Chloride，Anhydrous',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '三偏磷酸鈉',
+    ename: 'Sodium Trimetaphosphate',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '（尿素）胺甲醯胺',
+    ename: '（Urea）Carbamide ',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '偶氮二甲醯胺',
+    ename: 'Azodicarbonamide',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '過氧化苯甲醯',
+    ename: 'Benzoyl Peroxide',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '交聯羧甲基纖維素鈉',
+    ename: '（Cross-Linked Sodium Carboxymethyl Cellulose）',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '聚麩胺酸鈉',
+    ename: '（Sodium γ-Polyglutamate）',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '聚乙烯吡咯烷酮',
+    ename: '（Polyvinyl-pyrrolidone）',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '硬脂酸鈣',
+    ename: '(Calcium Stearate)',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '亞鐵氰化鉀',
+    ename: 'Potassium Ferrocyanide',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '亞鐵氰化鈣',
+    ename: 'Sodium Ferrocyanide',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '蓖麻油',
+    ename: 'Castor Oil',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: 'D-山梨醇',
+    ename: 'D-Sorbitol',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: 'D-山梨醇液70%',
+    ename: 'D-Sorbitol Solution 70%',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: 'D-木糖醇',
+    ename: 'D-Xylitol',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: 'D-甘露醇',
+    ename: 'D-Mannitol',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '麥芽糖醇',
+    ename: 'Maltitol',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '麥芽糖醇糖漿（氫化葡萄糖漿）',
+    ename: 'Maltitol Syrup (Hydrogenated Glucose Syrup)',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '異麥芽酮糖醇（巴糖醇）',
+    ename: 'Isomalt(Hydrogenated Palatinose)',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '乳糖醇',
+    ename: 'Lactitol',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '赤藻糖醇',
+    ename: 'Erythritol',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '檸檬酸三乙酯',
+    ename: 'Triethyl citrate    ',
+    type: '品質改良用、釀造用及食品製造用劑',
+    intro: '',
+    tag: ''
   }];
 });
 
