@@ -33,6 +33,7 @@ body {
   display: inline-block;
   padding: 5px 10px 0 0;
 }
+
 /*#logo_img {
   display: inline-block;
   padding: 30px 10px 0 10px;
@@ -138,4 +139,22 @@ button:active {
   #nav {
     left: 100px;
   }
+}
+
+/*************/
+#container {
+  margin: 10px;
+}
+.ingred {
+  border:1px solid gray;
+  display: inline-block;
+  width: 200px;
+  padding: 1px;
+}
+
+.ingred-name {
+  border-bottom:1px solid gray;
+}
+
+.ingred-intro {
 }
