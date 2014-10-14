@@ -14,10 +14,12 @@
 
 <body ng-controller="mainCtrl">
   <div class="logo">
-    <img src="logo.png" alt="整個台灣都是我的化工廠" id="logo_img">
+    <div id="logo_img" class="logo_lift"></div>
   </div>
   <div id="header">
-    製作：Cyril, Eden, Kate, Kylie </br>
+    製作：Cyril, Eden, Kate, Kylie
+    <a href="reference.html">資料來源</a>
+    <a href="QA.html">QA</a><br>
     快速過濾：<button class="filter" ng-repeat="f in filterBtns" ng-click="setQuery(f.name)">{{f.name}}</button><br/>
     關鍵字過濾：<input type="text" ng-model="query" value="" placeholder="關鍵字：果汁、牛奶...">
   </div>
