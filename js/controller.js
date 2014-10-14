@@ -12,8 +12,7 @@ mainApp.controller('mainCtrl', function($scope) {
     {name: '調味料'}, 
     {name: '水'},
     {name: '統一'},
-    {name: '味全'},
-    {name: '頂新'}
+    {name: '味全'}
   ];
   $scope.setQuery = function(q){
     if(q==='全部') {
@@ -23,41 +22,21 @@ mainApp.controller('mainCtrl', function($scope) {
     }
   };
   $scope.dataObj = [
-    
-    {name: '台灣之星', pict: 'th001.png', brand: '頂新', type: '電信', tag: ''},
-    {name: '松青超市', pict: 'th002.png', brand: '頂新', type: '零售商', tag: ''},
-
-    {name: '味全雞蛋布丁', pict: 'wc027.png', brand: '味全', type: '點心', tag: ''},
     {name: '每日C', pict: 'wc001.png', brand: '味全', type: '果汁', tag: ''},
     {name: '貝納頌', pict: 'wc005.png', brand: '味全', type: '咖啡', tag: ''},
     {name: '林鳳營鮮乳', pict: 'wc013.png', brand: '味全', type: '鮮乳', tag: '牛奶'},
     {name: '味全辣味肉醬', pict: 'wc108.png', brand: '味全', type: '肉醬', tag: ''},
+    {name: '味全珍味肉醬', pict: 'wc109.png', brand: '味全', type: '肉醬', tag: ''},
+    {name: '味全瓜仔肉', pict: 'wc110.png', brand: '味全', type: '肉醬', tag: ''},
     {name: '布列德麵包店', pict: 'bread001.png', brand: '布列德', type: '麵包', tag: ''},
     {name: '德克士炸雞', pict: 'dicos001.png', brand: 'dicos', type: '熟食', tag: ''},
     {name: '林鳳營優酪乳', pict: 'wc017.png', brand: '味全', type: '優酪乳', tag: ''},
-
-    {name: '紅燒牛肉湯麵', pict: 'wc051.png', brand: '味全', type: '速食麵/麵條', tag: '康師傅 泡麵'},
-    {name: '鮮蝦魚板湯麵', pict: 'wc052.png', brand: '味全', type: '速食麵/麵條', tag: '康師傅 泡麵'},
-
     {name: '原榨', pict: 'wc002.png', brand: '味全', type: '果汁', tag: ''},
     {name: '自然果力', pict: 'wc003.png', brand: '味全', type: '稀釋果汁', tag: ''},
     {name: '味全果汁', pict: 'wc004.png', brand: '味全', type: '稀釋果汁', tag: ''},
     {name: '36法郎', pict: 'wc006.png', brand: '味全', type: '咖啡', tag: ''},
     {name: '大絕韻', pict: 'wc007.png', brand: '味全', type: '茶', tag: ''},
-    {name: '涼爽茶', pict: 'wc008.png', brand: '味全', type: '茶', tag: ''},
-
-    {name: '木崗雞蛋', pict: 'th003.png', brand: '味全', type: '茶', tag: ''},
-    {name: '維力清香油', pict: 'ci001.png', brand: '正義', type: '食用油', tag: ''},
-    {name: '正義香豬油', pict: 'ci002.png', brand: '正義', type: '食用油', tag: ''},
-    {name: '維力香豬油', pict: 'ci003.png', brand: '正義', type: '食用油', tag: ''},
-    //{name: '洋洋香香系列酥油瑪琪琳', pict: 'ci004.png', brand: '正義', type: '烘培油', tag: ''},
-    {name: '正義特级酥油', pict: 'ci005.png', brand: '正義', type: '烘培油', tag: ''},
-
-    {name: '酸菜牛肉湯麵', pict: 'wc053.png', brand: '味全', type: '速食麵/麵條', tag: '康師傅 泡麵'},
-    {name: '雪筍肉絲湯麵', pict: 'wc054.png', brand: '味全', type: '速食麵/麵條', tag: '康師傅 泡麵'},
-    {name: '味全珍味肉醬', pict: 'wc109.png', brand: '味全', type: '肉醬', tag: ''},
-    {name: '味全瓜仔肉', pict: 'wc110.png', brand: '味全', type: '肉醬', tag: ''},
-    
+    {name: '涼爽茶', pict: 'wc008.png', brand: '統一', type: '茶', tag: ''},
     {name: '天然水', pict: 'wc009.png', brand: '味全', type: '水', tag: ''},
     {name: 'Apas礦泉水', pict: 'wc010.png', brand: '味全', type: '水', tag: ''},
     {name: 'VOSSI 加拿大冰河水', pict: 'wc011.png', brand: '味全', type: '水', tag: ''},
@@ -74,29 +53,8 @@ mainApp.controller('mainCtrl', function($scope) {
     {name: '味全調味醬', pict: 'wc024.png', brand: '味全', type: '醬品', tag: '調味料'},
     {name: '味全料理醬', pict: 'wc025.png', brand: '味全', type: '醬品', tag: '調味料'},
     {name: '健康廚房沾拌淋醬', pict: 'wc026.png', brand: '味全', type: '醬品', tag: '調味料'},
-    
-    {name: '味全果汁奶粉原味', pict: 'wc029.png', brand: '味全', type: '奶粉', tag: '牛奶'},
-    {name: '味全果汁奶粉好雪亮', pict: 'wc030.png', brand: '味全', type: '奶粉', tag: '牛奶'},
-    {name: '蘋果奶粉', pict: 'wc031.png', brand: '味全', type: '奶粉', tag: '牛奶'},
-    {name: '全家優鈣奶粉', pict: 'wc032.png', brand: '味全', type: '奶粉', tag: '牛奶'},
-    {name: '健康益生', pict: 'wc033.png', brand: '味全', type: '奶粉', tag: '牛奶'},
-    {name: '麥芽奶粉', pict: 'wc034.png', brand: '味全', type: '奶粉', tag: '牛奶'},
-    {name: '兒童資優奶粉', pict: 'wc035.png', brand: '味全', type: '奶粉', tag: '牛奶'},
-    {name: '果汁奶粉優鈣多', pict: 'wc036.png', brand: '味全', type: '奶粉', tag: '牛奶'},
-    {name: '草莓奶粉', pict: 'wc037.png', brand: '味全', type: '奶粉', tag: '牛奶'},
-    {name: '巧克力奶粉', pict: 'wc038.png', brand: '味全', type: '奶粉', tag: '牛奶'},
-    {name: '即溶低脂奶粉', pict: 'wc039.png', brand: '味全', type: '奶粉', tag: '牛奶'},
-    {name: '即溶全脂奶粉', pict: 'wc040.png', brand: '味全', type: '奶粉', tag: '牛奶'},
-    {name: '蔬果多榖-綜合堅果', pict: 'wc041.png', brand: '味全', type: '營養品', tag: ''},
-    {name: '蔬果多榖-香醇芝麻', pict: 'wc042.png', brand: '味全', type: '營養品', tag: ''},
-    {name: '味全嚴選大燕麥片', pict: 'wc043.png', brand: '味全', type: '營養品', tag: '麥片'},
-    {name: '醇品穀麥飲-紫米紫山藥堅果', pict: 'wc044.png', brand: '味全', type: '營養品', tag: ''},
-    {name: '醇品穀麥飲-核桃胚芽', pict: 'wc045.png', brand: '味全', type: '營養品', tag: ''},
-    {name: '醇品穀麥飲-杏仁蓮子', pict: 'wc046.png', brand: '味全', type: '營養品', tag: ''},
-    {name: '醇品穀麥飲-芝麻黑豆', pict: 'wc047.png', brand: '味全', type: '營養品', tag: ''},
-    {name: '醇品穀麥飲-山藥薏仁', pict: 'wc048.png', brand: '味全', type: '營養品', tag: ''},
-    {name: '醇品穀麥飲-十穀擂茶', pict: 'wc049.png', brand: '味全', type: '營養品', tag: ''},
-    {name: '木蘭四物飲', pict: 'wc050.png', brand: '味全', type: '生計', tag: ''},
+    {name: '味全雞蛋布丁', pict: 'wc027.png', brand: '味全', type: '點心', tag: ''},
+    {name: '原味優格', pict: 'wc028.png', brand: '味全', type: '點心', tag: ''},
 
     {name: '味小寶純豬肉酥', pict: 'wc101.png', brand: '味全', type: '肉酥', tag: ''},
     {name: '味小寶海苔豬肉酥', pict: 'wc102.png', brand: '味全', type: '肉酥', tag: ''},
@@ -122,7 +80,6 @@ mainApp.controller('mainCtrl', function($scope) {
     {name: '味全珍饌寶精華調合油', pict: 'wc126.png', brand: '味全', type: '食用油', tag: ''},
     {name: '味全高溫安定義式調合油', pict: 'wc127.png', brand: '味全', type: '食用油', tag: ''},
     {name: '味全皇家莊園精華調合油', pict: 'wc128.png', brand: '味全', type: '食用油', tag: ''},
-
     // 統一
     {name: '茶裏王', pict: 'pecos001.png', brand: '統一', type: '包裝茶', tag: '茶'},
     {name: '麥香', pict: 'pecos002.png', brand: '統一', type: '包裝茶', tag: '紅茶'},
