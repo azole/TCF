@@ -53,6 +53,10 @@ body {
 .clear {
   clear: both;
 }
+
+.warning {
+  padding-top: 3px;
+}
 .logo_lift {
   margin-left: -42px;
 }
