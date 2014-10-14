@@ -215,97 +215,97 @@ mainApp.controller('mainCtrl', function($scope) {
     tag: ''
   }, {
     name: '丁基羥基甲氧苯',
-    ename: 'Butyl Hydroxy Anisole（BHA）  ',
+    ename: 'Butyl Hydroxy Anisole（BHA） ',
     type: '抗氧化劑',
     intro: '',
     tag: ''
   }, {
     name: 'L-抗壞血酸（維生素C',
-    ename: 'L-Ascorbic Acid（Vitamin C） ',
+    ename: 'L-Ascorbic Acid（Vitamin C）',
     type: '抗氧化劑',
     intro: '',
     tag: ''
   }, {
     name: 'L-抗壞血酸鈉',
-    ename: 'Sodium L-Ascorbate ',
+    ename: 'Sodium L-Ascorbate',
     type: '抗氧化劑',
     intro: '',
     tag: ''
   }, {
     name: 'L-抗壞血酸硬脂酸酯',
-    ename: 'L-Ascorbyl Stearate ',
+    ename: 'L-Ascorbyl Stearate',
     type: '抗氧化劑',
     intro: '',
     tag: ''
   }, {
     name: 'L-抗壞血酸棕櫚酸酯',
-    ename: 'L-Ascorbyl Palmitate ',
+    ename: 'L-Ascorbyl Palmitate',
     type: '抗氧化劑',
     intro: '',
     tag: ''
   }, {
     name: '異抗壞血酸',
-    ename: 'Erythorbic Acid ',
+    ename: 'Erythorbic Acid',
     type: '抗氧化劑',
     intro: '',
     tag: ''
   }, {
     name: '異抗壞血酸鈉',
-    ename: 'Sodium Erythorbate ',
+    ename: 'Sodium Erythorbate',
     type: '抗氧化劑',
     intro: '',
     tag: ''
   }, {
     name: '生育醇（維生素E',
-    ename: 'dl-α-Tocopherol （Vitamin E） ',
+    ename: 'dl-α-Tocopherol （Vitamin E）',
     type: '抗氧化劑',
     intro: '',
     tag: ''
   }, {
     name: '沒食子酸丙酯',
-    ename: 'Propyl Gallate ',
+    ename: 'Propyl Gallate',
     type: '抗氧化劑',
     intro: '',
     tag: ''
   }, {
     name: '癒創樹脂',
-    ename: 'Guaiac Resin ',
+    ename: 'Guaiac Resin',
     type: '抗氧化劑',
     intro: '',
     tag: ''
   }, {
     name: 'L-半胱氨酸鹽酸鹽',
-    ename: 'L-Cysteine Monohydro-chloride ',
+    ename: 'L-Cysteine Monohydro-chloride',
     type: '抗氧化劑',
     intro: '',
     tag: ''
   }, {
     name: '第三丁基氫',
-    ename: 'Tertiary-Butyl Hydro-quinone ',
+    ename: 'Tertiary-Butyl Hydro-quinone',
     type: '抗氧化劑',
     intro: '',
     tag: ''
   }, {
     name: 'L-抗壞血酸鈣',
-    ename: 'Calcium L-Ascorbate ',
+    ename: 'Calcium L-Ascorbate',
     type: '抗氧化劑',
     intro: '',
     tag: ''
   }, {
     name: '混合濃縮生育醇',
-    ename: 'Tocopherols Concentrate，Mixed ',
+    ename: 'Tocopherols Concentrate，Mixed',
     type: '抗氧化劑',
     intro: '',
     tag: ''
   }, {
     name: '濃縮d-α-生育醇',
-    ename: 'd-α-Tocopherol Concentrate ',
+    ename: 'd-α-Tocopherol Concentrate',
     type: '抗氧化劑',
     intro: '',
     tag: ''
   }, {
     name: '乙烯二胺四醋酸二鈉/乙烯二胺四醋酸二鈉鈣',
-    ename: 'EDTA Na2 or EDTA CaNa2 ',
+    ename: 'EDTA Na2 or EDTA CaNa2',
     type: '抗氧化劑',
     intro: '',
     tag: ''
@@ -347,13 +347,13 @@ mainApp.controller('mainCtrl', function($scope) {
     tag: ''
   }, {
     name: '亞硫酸氫鉀',
-    ename: 'Potassium Bisulfite ',
+    ename: 'Potassium Bisulfite',
     type: '抗氧化劑',
     intro: '',
     tag: ''
   }, {
     name: '偏亞硫酸氫鈉',
-    ename: 'Sodium Metabisulfite ',
+    ename: 'Sodium Metabisulfite',
     type: '抗氧化劑',
     intro: '',
     tag: ''
@@ -361,6 +361,168 @@ mainApp.controller('mainCtrl', function($scope) {
     name: 'α–醣基異槲皮苷',
     ename: 'α– Glycosyl– isoquercitrin',
     type: '抗氧化劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '亞硫酸鉀',
+    ename: 'Potassium Sulfite',
+    type: '漂白劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '亞硫酸鈉',
+    ename: 'Sodium Sulfite',
+    type: '漂白劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '亞硫酸鈉（無水）',
+    ename: 'Sodium Sulfite（Anhydrous）',
+    type: '漂白劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '亞硫酸氫鈉',
+    ename: 'Sodium Bisulfite',
+    type: '漂白劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '低亞硫酸鈉',
+    ename: 'Sodium Hydrosulfite',
+    type: '漂白劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '偏亞硫酸氫鉀',
+    ename: 'Potassium Metabisulfite',
+    type: '漂白劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '亞硫酸氫鉀',
+    ename: 'Potassium Bisulfite',
+    type: '漂白劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '偏亞硫酸氫鈉',
+    ename: 'Sodium Metabisulfite',
+    type: '漂白劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '過氧化苯甲醯',
+    ename: 'Benzoyl peroxide',
+    type: '漂白劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '亞硝酸鉀',
+    ename: 'Potassium Nitrite',
+    type: '保色劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '亞硝酸鈉',
+    ename: 'Sodium Nitrite',
+    type: '保色劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '硝酸鉀',
+    ename: 'Potassium Nitrite',
+    type: '保色劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '硝酸鈉',
+    ename: 'Sodium Nitrite',
+    type: '保色劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '鉀明礬',
+    ename: 'Potassium Alum',
+    type: '膨脹劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '鈉明礬',
+    ename: 'Sodium Alum',
+    type: '膨脹劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '燒鉀明礬',
+    ename: 'Burnt Potassium Alum',
+    type: '膨脹劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '銨明礬',
+    ename: 'Ammonium Alum',
+    type: '膨脹劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '燒銨明礬',
+    ename: 'Burnt Ammonium Alum',
+    type: '膨脹劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '氯化銨',
+    ename: 'Ammonium Chloride',
+    type: '膨脹劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: 'd–酒石酸氫鉀',
+    ename: 'Potsassium d–Bitartrate',
+    type: '膨脹劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '碳酸氫鈉',
+    ename: 'Sodium Bicarbonate',
+    type: '膨脹劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '碳酸銨',
+    ename: 'Ammonium Carbonate',
+    type: '膨脹劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '碳酸氫銨',
+    ename: 'Ammonium Bicarbonate',
+    type: '膨脹劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '碳酸鉀',
+    ename: 'Potassium Carbonate',
+    type: '膨脹劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '合成膨脹劑',
+    ename: 'Baking Powder',
+    type: '膨脹劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '酸式磷酸鋁鈉',
+    ename: 'Sodium Aluminum Phosphate，Acidic',
+    type: '膨脹劑',
+    intro: '',
+    tag: ''
+  }, {
+    name: '燒鈉明礬',
+    ename: 'Surnt Sodium Alum',
+    type: '膨脹劑',
     intro: '',
     tag: ''
   }];
