@@ -27,6 +27,7 @@ body {
   padding: 10px;
   position: absolute;
   left: 220px;
+  bottom: 5px;
 }
 #nav a {
   display: inline-block;
