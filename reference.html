@@ -8,12 +8,20 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <div class="logo">
-    <div id="logo_img"></div>
+  <div id="header">
+    <div id="logo">
+      <div id="logo_img"></div>
+    </div>
+    <div id="nav">
+      <div>製作：Cyril, Eden, Kate, Kylie</div>
+      <a href="index.html">查詢頁面</a>
+      <a href="QA.html">QA</a>
+    </div>
+    <div class="clear"></div>
   </div>
-  <br/>
-  <div id="header" class="center">
-    <a href="index.html">回查詢頁面</a>
+  <div id="query">
+    快速過濾：<button class="filter" ng-repeat="f in filterBtns" ng-click="setQuery(f.name)">{{f.name}}</button><br/>
+    關鍵字過濾：<input type="text" ng-model="query" value="" placeholder="關鍵字：果汁、牛奶...">
   </div>
   <ul>
     <li class="list-item"><a href="https://www.ptt.cc/bbs/Gossiping/M.1410507746.A.22E.html" target="_blank">頂新集團抵制懶人包</a></li>

@@ -13,13 +13,18 @@
 </head>
 
 <body ng-controller="mainCtrl">
-  <div class="logo">
-    <div id="logo_img" class="logo_lift"></div>
-  </div>
   <div id="header">
-    製作：Cyril, Eden, Kate, Kylie
-    <a href="reference.html">資料來源</a>
-    <a href="QA.html">QA</a><br>
+    <div id="logo">
+      <div id="logo_img"></div>
+    </div>
+    <div id="nav">
+      <div>製作：Cyril, Eden, Kate, Kylie</div>
+      <a href="reference.html">資料來源</a>
+      <a href="QA.html">QA</a>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div id="query">
     快速過濾：<button class="filter" ng-repeat="f in filterBtns" ng-click="setQuery(f.name)">{{f.name}}</button><br/>
     關鍵字過濾：<input type="text" ng-model="query" value="" placeholder="關鍵字：果汁、牛奶...">
   </div>
