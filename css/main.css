@@ -6,18 +6,37 @@ body {
 	display: inline-block;
 	text-align: center;
 	width: 100%;
+	margin: 10px 0 0 0 ;
 }
 #logo_img{
 	display: inline-block;
 	padding: 30px 10px 0 10px;
-	max-width: 470px;
-	width: 100%;
+	width: 400px;
+	height: 202px;
+	background-image: url('../logo.png');
+	background-repeat: no-repeat;
+}
+.logo_lift{
+	margin-left: -42px;
 }
 #header {
   text-align: left;
   margin: 0 auto;
   max-width: 490px;
   padding: 10px;
+}
+#header a{
+	margin-left: 5px;
+}
+ul{
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	padding: 0;
+}
+li{
+	padding: 0;
+	list-style: none;
 }
 .item img {
   width: 100%;
@@ -57,4 +76,21 @@ button:hover {
 button:active {
 	position:relative;
 	top:1px;
+}
+.text{
+	max-width: 500px;
+	margin: 0px auto;
+	padding: 5px;
+}
+.center{
+	text-align: center!important;
+}
+@media only screen and (max-width : 480px) {
+	#logo_img{
+		background-image: url('../logo_s.png');
+		width: 390px;
+		height: 142px;
+		margin-left: 0;
+		padding: 5px;
+	}
 }
